@@ -8,7 +8,8 @@
       <text y='20' font-size='20'>🚀</text></svg>"
     />
     <meta charset="UTF-8" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Raúl Vélez Cano | Portafolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -23,7 +24,7 @@
         },
       };
     </script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 
@@ -31,7 +32,6 @@
       body {
         overflow: hidden;
       }
-      
     </style>
   </head>
 
@@ -40,17 +40,16 @@
 
     <main class="relative z-10 flex-1 flex items-center justify-center p-4">
       <div class="max-w-md w-full text-center space-y-6">
-    
         <h1
-          class="text-4xl md:text-5xl font-bold text-neon-blue drop-shadow-[0_0_2px_#00ffff]"
+          class="text-3xl sm:text-4xl md:text-5xl font-bold text-neon-blue drop-shadow-[0_0_2px_#00ffff]"
         >
           Raúl Andrés Vélez Cano
         </h1>
-        <p class="text-gray-300 text-lg italic">
+        <p class="text-base md:text-lg text-gray-300 italic">
           "Programador junior orientado al aprendizaje continuo y con objetivos
           profesionales y personales de impacto."
         </p>
-        
+
         <div class="space-y-3">
           <a
             href="https://github.com/Exitium330?tab=repositories"
@@ -67,10 +66,12 @@
           <a class="block text-neon-blue hover:text-white transition"
             >Contacto:</a
           >
-          <p class="text-blue-300">
+          <p class="text-sm sm:text-base text-blue-300">
             Correo Electrónico: raulandresvelezcano@gmail.com
           </p>
-          <p class="text-blue-300">Teléfono: +57 300 458 0887</p>
+          <p class="text-sm sm:text-base text-blue-300">
+            Teléfono: +57 300 458 0887
+          </p>
         </div>
       </div>
     </main>
@@ -125,7 +126,7 @@
 
     <script>
       VANTA.GLOBE({
-        el: "#vanta-bg",
+        el: '#vanta-bg',
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -133,12 +134,11 @@
         minWidth: 200.0,
         scale: 1.0,
         scaleMobile: 1.0,
-        color: '#00ffff',      
-        color2: '#ff00ff',     
+        color: '#00ffff',
+        color2: '#ff00ff',
         backgroundColor: '#000000',
-        size: 0.7 
+        size: 0.7,
       });
     </script>
-    
   </body>
 </html>
